@@ -1,0 +1,27 @@
+body { background-color: white; }
+
+.nav-toggle {
+	background-color: transparent;
+	border: 0;
+	width: 300px;
+	height: 300px;
+	padding: 0;
+	position: relative;
+	
+	.svg-icon {
+		width: inherit;
+		height: inherit;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
+
+.svg-icon g:not(:first-child) {
+	display: none;
+}
+
+body {
+	margin: 20px;
+	text-align: center;
+}
