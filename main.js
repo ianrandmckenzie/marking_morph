@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	var morpheusConfig = {
-		duration: 200,
+		duration: 1000,
 		rotation: 'none'
 	};
 
